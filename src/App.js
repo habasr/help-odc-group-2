@@ -1,10 +1,11 @@
 import "./App.css";
+import hero from "../src/images/hero.jpeg"
 
 function App() {
   return (
     <>
       {/* <!-- This example requires Tailwind CSS v3.0+ --> */}
-      <div style={{backgroundImage: url('../scr/images/bg-hosp.jpg')}} className="isolate bg-white">
+      <div className="isolate bg-white">
         <div className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]">
           <svg
             className="relative left-[calc(50%-11rem)] -z-10 h-[21.1875rem] max-w-none -translate-x-1/2 rotate-[30deg] sm:left-[calc(50%-30rem)] sm:h-[42.375rem]"
@@ -77,29 +78,23 @@ function App() {
                   href="#"
                   className="font-semibold text-gray-900 hover:text-gray-900"
                 >
-                  Product
+                  About Us
                 </a>
 
                 <a
                   href="#"
                   className="font-semibold text-gray-900 hover:text-gray-900"
                 >
-                  Features
+                  Services
                 </a>
 
                 <a
                   href="#"
                   className="font-semibold text-gray-900 hover:text-gray-900"
                 >
-                  Marketplace
+                  Contact Us
                 </a>
 
-                <a
-                  href="#"
-                  className="font-semibold text-gray-900 hover:text-gray-900"
-                >
-                  Company
-                </a>
               </div>
               <div className="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-end">
                 <a
@@ -159,29 +154,23 @@ function App() {
                         href="#"
                         className="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10"
                       >
-                        Product
+                        About Us
                       </a>
 
                       <a
                         href="#"
                         className="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10"
                       >
-                        Features
+                        Services
                       </a>
 
                       <a
                         href="#"
                         className="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10"
                       >
-                        Marketplace
+                        Contact Us
                       </a>
 
-                      <a
-                        href="#"
-                        className="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10"
-                      >
-                        Company
-                      </a>
                     </div>
                     <div className="py-6">
                       <a
@@ -204,14 +193,7 @@ function App() {
                 <div className="hidden sm:mb-8 sm:flex sm:justify-center">
                   <div className="relative overflow-hidden rounded-full py-1.5 px-4 text-sm leading-6 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
                     <span className="text-gray-600">
-                      Announcing our next round of funding.{" "}
-                      <a href="#" className="font-semibold text-indigo-600">
-                        <span
-                          className="absolute inset-0"
-                          aria-hidden="true"
-                        ></span>
-                        Read more <span aria-hidden="true">&rarr;</span>
-                      </a>
+                      Search for you needs.
                     </span>
                   </div>
                 </div>
@@ -229,7 +211,7 @@ function App() {
                       href="#"
                       className="inline-block rounded-lg bg-indigo-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-indigo-600 hover:bg-indigo-700 hover:ring-indigo-700"
                     >
-                      Get started
+                      Request an appointment
                       <span className="text-indigo-200" aria-hidden="true">
                         &rarr;
                       </span>
@@ -238,7 +220,7 @@ function App() {
                       href="#"
                       className="inline-block rounded-lg px-4 py-1.5 text-base font-semibold leading-7 text-gray-900 ring-1 ring-gray-900/10 hover:ring-gray-900/20"
                     >
-                      Live demo
+                      Log in to Patient Account
                       <span className="text-gray-400" aria-hidden="true">
                         &rarr;
                       </span>
